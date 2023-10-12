@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> london University Website - Easy Tutorials</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/download-removebg-preview (1).png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+ <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our course</h1>
+        
+    </section>
+       <!------ COURSE --------->
+       <section class="Course">
+       <h1>Course we offer</h1>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+       <div class="row">
+           <div class="course-col">
+               <h3>Intermediate</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                   Ad rem saepe sed corporis repellat cum aliquid.</p>
+           </div>
+           <div class="course-col">
+               <h3>Degree</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                   Ad rem saepe sed corporis repellat cum aliquid. </p>
+           </div>
+           <div class="course-col">
+               <h3>Post graduation</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                   Ad rem saepe sed corporis repellat cum aliquid.</p>
+           </div>
+
+   </section>
+   
+   <!------ facilities----->
+
+   <section class="facilities">
+    <h1>Our facilities</h1>
+    <p>From our state-of-the-art Optometry Clinic (City Sight) and Adult Nursing Clinical Skills Centre, to our
+        professional Engineering laboratories and workshops, Journalism TV,
+        radio and music recording studios, you will build the practical skills and experience for your career.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/lib.jpg" alt="" width="200" height="200">
+            <h3>World Class Library</h3>
+            <p>The library is located on Level 2 of University Building, directly upstairs from the main entrance on
+                Northampton Square,
+                providing printed resources, study spaces, networked PCs and wi-fi access across five levels.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/baskettball2.jpg" alt="" width="200" height="200">
+            <h3>Largest Play Ground</h3>
+            <p>CitySport is the home venue of City, University of London's indoor student sports clubs, such as,
+                Volleyball, Basketball, Futsal and many more.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/co.jpg" alt="" width="200" height="200">
+            <h3>Tasty and Healthy Food</h3>
+            <p>You can find the current opening times for food and drink outlets on campus below.
+                These are subject to change, so please check this page and the signage outside the outlets.</p>
+        </div>
+    </div>
+</section>
+
+    <!------Footer----->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nihil eligendi blanditiis<br> dolorem soluta perferendis, suscipit nemo doloremque illum, a modi voluptatibus ullam repellat iusto amet est molestiae distinctio similique.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100059070195299&mibextid=ZbWKwL">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://github.com/Rahmanullahkhan2">
+            <i class="fa fa-github"></i>
+        </a>
+            <a href="https://instagram.com/rahmanullah9311?igshid=OGQ5ZDc2ODk2ZA==">
+            <i class="fa fa-instagram"></i>
+        </a>
+            <a href="https://youtube.com/@anygameplay4412?si=KDzHDO-GykfsRoYu">
+            <i class="fa fa-youtube"></i>
+        </a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy Tuturials</p>
+    </section>
+
+ 
+
+    <!------JavaScript for toggle menu --------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

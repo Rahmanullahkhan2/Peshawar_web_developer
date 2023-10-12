@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> london University Website - Easy Tutorials</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/download-removebg-preview (1).png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+    <!------ About us content --------->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>
+                    We are the worlds largest University
+                </h1>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid mollitia <br>aperiam voluptatem
+                    voluptatum, tenetur soluta quisquam cupiditate autem necessitatibus obcaecati, temporibus facere
+                    quos, nostrum culpa neque maxime error veniam. Ipsam</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/london555.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!------Footer----->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nihil eligendi blanditiis<br> dolorem
+            soluta perferendis, suscipit nemo doloremque illum, a modi voluptatibus ullam repellat iusto amet est
+            molestiae distinctio similique.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100059070195299&mibextid=ZbWKwL">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://github.com/Rahmanullahkhan2">
+                <i class="fa fa-github"></i>
+            </a>
+                <a href="https://instagram.com/rahmanullah9311?igshid=OGQ5ZDc2ODk2ZA==">
+                <i class="fa fa-instagram"></i>
+            </a>
+                <a href="https://youtube.com/@anygameplay4412?si=KDzHDO-GykfsRoYu">
+                <i class="fa fa-youtube"></i>
+            </a>
+            </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy Tuturials</p>
+    </section>
+
+
+
+    <!------JavaScript for toggle menu --------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

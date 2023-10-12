@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> london University Website - Easy Tutorials</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/download-removebg-preview (1).png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+        
+    </section>
+       <!------Contact Us--------->
+
+       <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7050661.956303704!2d68.9966984!3d30.3593034!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1697085061594!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+       </section>
+
+       <section class="contact-us"> 
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" ></i>
+                    <span>
+                        <h5>Dalazak Road Peshawar</h5>
+                        <p>Pakistan,Peshawar</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" ></i>
+                    <span>
+                        <h5>+092-333-0689594</h5>
+                        <p>Monday to saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" ></i>
+                    <span>
+                        <h5>linkdin670@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name " required>
+                    <input type="email" name="email"  placeholder="Enter Your Email Address" required>
+                    <input type="text" name="subject"  placeholder="Enter Your Subject " required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="Submit" class="hero-btn red-btn">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+
+       </section>
+
+     
+   
+
+
+    <!------Footer----->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nihil eligendi blanditiis<br> dolorem soluta perferendis, suscipit nemo doloremque illum, a modi voluptatibus ullam repellat iusto amet est molestiae distinctio similique.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100059070195299&mibextid=ZbWKwL">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://github.com/Rahmanullahkhan2">
+            <i class="fa fa-github"></i>
+        </a>
+            <a href="https://instagram.com/rahmanullah9311?igshid=OGQ5ZDc2ODk2ZA==">
+            <i class="fa fa-instagram"></i>
+        </a>
+            <a href="https://youtube.com/@anygameplay4412?si=KDzHDO-GykfsRoYu">
+            <i class="fa fa-youtube"></i>
+        </a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy Tuturials</p>
+    </section>
+
+ 
+
+    <!------JavaScript for toggle menu --------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
